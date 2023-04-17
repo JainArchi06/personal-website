@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://JainArchi06.github.io/personal-website",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -8,6 +9,7 @@
     "@material-ui/core": "4.12.3",
     "@material-ui/icons": "4.11.2",
     "aos": "2.3.4",
+    "gh-pages": "^5.0.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -22,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

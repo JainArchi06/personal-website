@@ -22,6 +22,12 @@ import {
 import { DiCss3, DiPython, DiReact } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import Map from "../../assets/Map.png";
+import Music from "../../assets/Music.png";
+import Feedback from "../../assets/Feedback.png";
+import outlook from "../../assets/outlook.png";
+import Portal from "../../assets/Portal.png";
+
 export const Projects = () => {
   return (
     <>
@@ -33,7 +39,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
+                    src={Map}
                     alt="GoogleMap DataScraper"
                   />
                 </div>
@@ -80,7 +86,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
+                    src={Music}
                     alt="Band Music App"
                   />
                 </div>
@@ -126,7 +132,9 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img 
+                  src={outlook}
+                  alt="Bulk-Email-Automation" />
                 </div>
               </div>
               <div className="project_information">
@@ -154,7 +162,7 @@ export const Projects = () => {
                     </span>
                   </a> */}
                   <a
-                    href="https://github.com/JainArchi06/Bulk-E-mails-Automation"
+                    href="outlook.png"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -172,7 +180,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src={Feedback}
                     alt=""
                   />
                 </div>
@@ -218,7 +226,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
+                    src={Portal}
                     alt="Sports_Med_Portal"
                   />
                 </div>
