@@ -11,6 +11,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import Girl from "../../assets/Girl.png"
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (
@@ -18,6 +19,8 @@ export const About = () => {
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Archi Jain</span>
+          <img src={Girl} 
+          alt="Girl" />
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">

@@ -12,6 +12,10 @@
   color: var(--clr-fg-alt);
 }
 
+img{
+  width: 65px;
+}
+
 .about__desc {
   font-size: 1rem;
   max-width: 70%;
